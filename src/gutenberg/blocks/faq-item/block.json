@@ -1,0 +1,22 @@
+{
+	"apiVersion": 2,
+	"name": "loos/faq-item",
+	"title": "項目",
+	"category": "swell-blocks",
+	"parent": [
+		"loos/faq"
+	],
+	"supports": {
+		"anchor": true,
+		"className": false,
+		"reusable": false
+	},
+	"attributes": {
+		"contentQ": {
+			"type": "string",
+			"source": "html",
+			"selector": "dt",
+			"default": ""
+		}
+	}
+}
